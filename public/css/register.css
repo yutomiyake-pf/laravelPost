@@ -1,0 +1,21 @@
+
+.form-wrapper {
+    width: 100%;
+    /* background-color: skyblue; */
+    margin-top: 3%;
+}
+
+.form-wrapper form {
+    text-align: center;
+}
+
+.register-form {
+    display: block;
+    margin: 1% auto;
+    font-size: 23px;
+    width: 60%;
+}
+
+.register-submit {
+    margin-top: 3%;
+}

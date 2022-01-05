@@ -1,0 +1,35 @@
+
+.post-list-wrapper {
+    width: 80%;
+    background-color: skyblue;
+    margin: 2% auto;
+}
+
+.message-list-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    /* background-color: red; */
+    padding: 1% 0;
+}
+
+.message-info {
+    margin: 1% 0;
+}
+
+.message p {
+    font-size: 20px;
+    overflow-wrap: break-word;
+}
+
+/* ページネーション */
+.paginate-wrap {
+    text-align: center;
+    margin: 2% auto;
+    width: 50%;
+    /* background-color: red; */
+}
+
+.page-item {
+    display: inline;
+    margin: 5px;
+}

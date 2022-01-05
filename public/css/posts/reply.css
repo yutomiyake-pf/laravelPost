@@ -1,0 +1,15 @@
+#reply-post {
+    width: 100%;
+    margin-top: 1%;
+}
+
+.reply-message-wrap {
+    width: 80%;
+    background-color: skyblue;
+    margin: 0 auto;
+}
+
+.reply-message {
+    font-size: 25px;
+    overflow-wrap: break-word;
+}

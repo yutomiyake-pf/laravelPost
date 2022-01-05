@@ -1,0 +1,66 @@
+
+#open, #close, .post-submit{
+    cursor:pointer;
+    width:200px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    text-align: center;
+    padding:12px 0;
+    margin:16px auto 0;
+}
+
+#open:hover, #close:hover, .post-submit:hover {
+    background-color: aqua;
+}
+
+#mask{
+background:rgba(0,0,0,0.4);
+position:fixed;
+top:0;
+bottom:0;
+left:0;
+right:0;
+z-index:1;
+}
+
+#modal{
+background:#fff;
+/* background-color: red; */
+width:80%;
+padding:20px;
+border-radius:4px;
+position:absolute;
+top:200px;
+left:0;
+right:0;
+margin:0 auto;
+transition:transform 0.4s;
+z-index:2;
+}
+
+.post-form {
+    text-align: center;
+}
+
+.post-area {
+    width: 80%;
+    height: 100px;
+    resize: none;
+    font-size: 20px;
+}
+
+.post-submit {
+    display: block;
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#mask.hidden{
+display:none;
+}
+
+#modal.hidden{
+transform:translate(0,-550px);
+display: none;
+}
